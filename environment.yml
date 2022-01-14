@@ -1,0 +1,10 @@
+name: teste
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - setuptools
+  - pip
+  - pip:
+      - git+https://github.com/pharaohs-son/repo_test.git
