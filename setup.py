@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 # setar as versoes sertinho (>=x ou ==x)
 requirements = [
-                'Bio>=1.73',
+               'biopython==1.73',
                 ]
 
 with open('README.md') as rm:
@@ -12,7 +12,7 @@ setup(
     name="Test_Setup",
     packages=find_packages(),
     version='1.0',
-    description='setup.py teste',
+    description='setup teste',
     long_description=long_description,
     install_requires=requirements,
     author='Vilmar Benetti Filho',
@@ -23,13 +23,4 @@ setup(
     python_requires=">=3",
     url='https://github.com/pharaohs-son/repo_test.git',
     download_url='https://github.com/pharaohs-son/repo_test/archive/refs/heads/master.zip',
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',  # pathlib is born
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9'
-    ],
 )
