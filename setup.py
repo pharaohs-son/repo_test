@@ -17,7 +17,7 @@ setup(
     author='Vilmar Benetti Filho',
     author_email='labinfo.ufsc@gmail.com',
     scripts=['scripts/main_teste.py'],
-    data_files=[('config', ['scripts/config.config']),
+    data_files=[('config', ['scripts/config.config'])],
     zip_safe=False,
     include_package_data=True,
     python_requires=">=3",
