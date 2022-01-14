@@ -3,8 +3,8 @@ import os
 import pkgutil
 import sys
 
-config = os.path.join(sys.prefix, 'config.config')
-
+config = os.path.join(sys.prefix, 'config')
+config += "/config.config"
 print(config)
 
 with open(config, "r") as conf:
