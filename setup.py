@@ -10,7 +10,7 @@ with open('README.md') as rm:
 
 setup(
     name="Test_Setup",
-    packages=find_packages(),
+    packages=find_packages(include=["scripts"]),
     version='1.0',
     description='setup teste',
     long_description=long_description,
