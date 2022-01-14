@@ -19,7 +19,6 @@ setup(
     scripts=['scripts/main_teste.py'],
     data_files=[('config', ['scripts/config.config']),
     zip_safe=False,
-    package_data={'': ['*.config']},
     include_package_data=True,
     python_requires=">=3",
     url='https://github.com/pharaohs-son/repo_test.git',
