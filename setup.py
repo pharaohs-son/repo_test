@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 # setar as versoes sertinho (>=x ou ==x)
 requirements = [
                'biopython==1.73',
+               'pkgutil'
                 ]
 
 with open('README.md') as rm:
@@ -11,6 +12,7 @@ with open('README.md') as rm:
 setup(
     name="Test_Setup",
     version='1.0',
+    packages=find_packages(include=["scripts"]),
     description='setup teste',
     long_description=long_description,
     install_requires=requirements,
