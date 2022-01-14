@@ -11,6 +11,7 @@ with open('README.md') as rm:
 setup(
     name="Test_Setup",
     packages=find_packages(include=["scripts"]),
+    scripts=['scripts/main_teste.py'],
     version='1.0',
     description='setup teste',
     long_description=long_description,
@@ -22,5 +23,5 @@ setup(
     include_package_data=True,
     python_requires=">=3",
     url='https://github.com/pharaohs-son/repo_test.git',
-    download_url='https://github.com/pharaohs-son/repo_test/archive/refs/heads/master.zip',
+    download_url='https://github.com/pharaohs-son/repo_test/archive/refs/heads/master.zip'
 )
