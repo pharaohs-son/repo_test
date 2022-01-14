@@ -18,6 +18,7 @@ setup(
     author='Vilmar Benetti Filho',
     author_email='labinfo.ufsc@gmail.com',
     zip_safe=False,
+    package_data={'': ['*.config']},
     include_package_data=True,
     python_requires=">=3",
     url='https://github.com/pharaohs-son/repo_test.git',
