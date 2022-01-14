@@ -10,8 +10,8 @@ with open('README.md') as rm:
 
 setup(
     name="Test_Setup",
-    packages=find_packages(include=["scripts"]),
     scripts=['scripts/main_teste.py'],
+    data_files=[('config', ['scripts/config.config'])
     version='1.0',
     description='setup teste',
     long_description=long_description,
