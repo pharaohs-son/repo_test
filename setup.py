@@ -2,8 +2,7 @@ from setuptools import setup, find_packages
 
 # setar as versoes sertinho (>=x ou ==x)
 requirements = [
-               'biopython==1.73',
-               'pkgutil'
+               'biopython==1.73'
                 ]
 
 with open('README.md') as rm:
