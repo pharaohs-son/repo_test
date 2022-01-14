@@ -10,14 +10,14 @@ with open('README.md') as rm:
 
 setup(
     name="Test_Setup",
-    scripts=['scripts/main_teste.py'],
-    data_files=[('config', ['scripts/config.config'])
     version='1.0',
     description='setup teste',
     long_description=long_description,
     install_requires=requirements,
     author='Vilmar Benetti Filho',
     author_email='labinfo.ufsc@gmail.com',
+    scripts=['scripts/main_teste.py'],
+    data_files=[('config', ['scripts/config.config']),
     zip_safe=False,
     package_data={'': ['*.config']},
     include_package_data=True,
